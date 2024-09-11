@@ -10,14 +10,6 @@
     ],   
  "repository": "https://github.com/codebitey/NobitaProBot",
  "stack": "heroku-22",
- "addons": [
-    {
-       "options": {
-          "version": "15"
-       },
-       "plan": "heroku-postgresql"
-    }
- ],
  "env": {
     "API_ID": {
        "description": "Get this value from my.telegram.org/apps.",
